@@ -1,0 +1,106 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top-header{
+    background-color: #01284F;
+}
+.nav-logo{
+    margin: 0; 
+    font-size: 0.9rem !important;
+    padding: 0 2rem 0 0.3rem!important;
+}
+.language-switcher{
+    width: 6rem !important;
+    font-size: 0.9rem !important;
+    padding: 0.1rem 0.3rem !important;
+    color: white !important;
+    border-color: white !important;
+    background-color: #01284F !important;
+}
+.format-btn{
+    margin-right: 0.5rem;
+    font-size: 0.9rem !important;
+    padding: 0.1rem 0.3rem !important;
+    color: white !important;
+    border-color: white !important;
+    font-weight: 600;
+}
+.logo-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.2;
+}
+.logo-text:first-child{
+    margin-bottom: -0.3rem;
+}
+
+.login-modal-btn{
+    border-color: none !important;
+    padding: 0rem 1.2rem !important;
+    font-size: 1.3rem !important;
+    font-weight: 600 !important;
+}
+
+/* Login Page CSS */
+
+    .captcha-box{
+      user-select: none; 
+      -webkit-user-select: none;
+      -moz-user-select: none; 
+    }
+    body {
+      background: linear-gradient(to right, #01284F, #02386F);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .main {
+      flex: 1;
+    }
+
+    .info-box {
+      background: rgba(255, 255, 255, 0.15);
+      color: #fff;
+      border-radius: 1rem;
+      padding: 2rem;
+      backdrop-filter: blur(5px);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .info-box h4 {
+      font-weight: 700;
+    }
+
+    .login-card {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .login-btn {
+      background-color: #01284F !important;
+      color: #fff !important;
+      font-weight: 600 !important;
+    }
+
+    .login-btn:hover {
+      background-color: #014080;
+    }
+    
+.service-card {
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.emergency-alert {
+    background: linear-gradient(45deg, #fff3cd, #ffecb5);
+}
+
+.testimonial-card {
+    background: white;
+    border-left: 4px solid #01284F;
+}
